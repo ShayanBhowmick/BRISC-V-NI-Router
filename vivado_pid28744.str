@@ -1,0 +1,697 @@
+/*
+
+AMD Vivado v2024.1 (64-bit) [Major: 2024, Minor: 1]
+SW Build: 5076996 on Wed May 22 18:37:14 MDT 2024
+IP Build: 5075265 on Wed May 22 21:45:21 MDT 2024
+IP Build: 5075265 on Wed May 22 21:45:21 MDT 2024
+
+Process ID (PID): 28744
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sat Mar 22 10:31:25 IST 2025
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1366x768
+Local screen bounds: x = 0, y = 0, width = 1366, height = 728
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	21.0.1 64-bit
+JavaFX version: 21.0.1
+Java home: 	C:/xilinx/Vivado/2024.1/tps/win64/jre21.0.1_12
+Java executable: 	C:/xilinx/Vivado/2024.1/tps/win64/jre21.0.1_12/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	ASUS
+User home directory: C:/Users/ASUS
+User working directory: F:/project_2
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI_BASEROOT: C:/xilinx/Vivado
+HDI_APPROOT: C:/xilinx/Vivado/2024.1
+RDI_DATADIR: C:/xilinx/Vivado/2024.1/data
+RDI_BINDIR: C:/xilinx/Vivado/2024.1/bin
+
+Vivado preferences file: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2024.1/vivado.xml
+Vivado preferences directory: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2024.1/
+Vivado layouts directory: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2024.1/data/layouts
+PlanAhead jar file: 	C:/xilinx/Vivado/2024.1/lib/classes/planAhead.jar
+Vivado log file: 	F:/project_2/vivado.log
+Vivado journal file: 	F:/project_2/vivado.jou
+Engine tmp dir: 	F:/project_2/.Xil/Vivado-28744-LAPTOP-5C60I06H
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: C:/xilinx/Vivado/2024.1
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent24552 "F:\project_2\project_2.xpr"
+RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
+RDI_BASEROOT: C:/xilinx/Vivado
+RDI_BINDIR: C:/xilinx/Vivado/2024.1/bin
+RDI_BINROOT: C:/xilinx/Vivado/2024.1/bin
+RDI_BUILD: yes
+RDI_CHECK_PROG: True
+RDI_DATADIR: C:/xilinx/Vivado/2024.1/data
+RDI_INSTALLROOT: C:/xilinx
+RDI_INSTALLVER: 2024.1
+RDI_INSTALLVERSION: 2024.1
+RDI_ISE_PLATFORM: nt64
+RDI_JAVACEFROOT: C:/xilinx/Vivado/2024.1/tps/win64/java-cef-95.0.4638.69
+RDI_JAVAFXROOT: C:/xilinx/Vivado/2024.1/tps/win64/javafx-sdk-21.0.1
+RDI_JAVAROOT: C:/xilinx/Vivado/2024.1/tps/win64/jre21.0.1_12
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: C:/xilinx/Vivado/2024.1/lib/win64.o
+RDI_MINGW_LIB: C:/xilinx/Vivado/2024.1\tps\mingw\6.2.0\win64.o\nt\bin;C:/xilinx/Vivado/2024.1\tps\mingw\6.2.0\win64.o\nt\libexec\gcc\x86_64-w64-mingw32\6.2.0
+RDI_OPT_EXT: .o
+RDI_PLATFORM: win64
+RDI_PREPEND_PATH: C:/xilinx/Vivado/2024.1/ids_lite/ISE/bin/nt64;C:/xilinx/Vivado/2024.1/ids_lite/ISE/lib/nt64
+RDI_PROG: C:/xilinx/Vivado/2024.1/bin/unwrapped/win64.o/vivado.exe
+RDI_PROGNAME: vivado.exe
+RDI_PYTHON3: C:/xilinx/Vivado/2024.1\tps\win64\python-3.8.3
+RDI_PYTHON3_VERSION: 3.8.3
+RDI_PYTHONHOME: C:/xilinx/Vivado/2024.1\tps\win64\python-3.8.3
+RDI_PYTHONPATH: C:/xilinx/Vivado/2024.1\tps\win64\python-3.8.3;C:/xilinx/Vivado/2024.1\tps\win64\python-3.8.3\bin;C:/xilinx/Vivado/2024.1\tps\win64\python-3.8.3\lib;C:/xilinx/Vivado/2024.1\tps\win64\python-3.8.3\lib\site-packages
+RDI_PYTHON_LD_LIBPATH: C:/xilinx/Vivado/2024.1\tps\win64\python-3.8.3\lib
+RDI_SESSION_INFO: F:\project_2:LAPTOP-5C60I06H-22-03-2025_10-30-45.25
+RDI_SHARED_DATA: C:/xilinx/SharedData/2024.1/data
+RDI_TPS_ROOT: C:/xilinx/Vivado/2024.1/tps/win64
+RDI_USE_JDK21: True
+RDI_VERBOSE: False
+XILINX: C:/xilinx/Vivado/2024.1/ids_lite/ISE
+XILINX_DSP: C:/xilinx/Vivado/2024.1/ids_lite/ISE
+XILINX_HLS: C:/xilinx/Vitis_HLS/2024.1
+XILINX_PLANAHEAD: C:/xilinx/Vivado/2024.1
+XILINX_VIVADO: C:/xilinx/Vivado/2024.1
+XILINX_VIVADO_HLS: C:/xilinx/Vivado/2024.1
+_RDI_BINROOT: C:\xilinx\Vivado\2024.1\bin
+_RDI_CWD: F:\project_2
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 785 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: F:\project_2\project_2.xpr. Version: Vivado v2024.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project F:/project_2/project_2.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 792 MB. GUI used memory: 65 MB. Current time: 3/22/25, 10:31:26 AM IST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 920 MB. GUI used memory: 63 MB. Current time: 3/22/25, 10:31:46 AM IST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project F:/project_2/project_2.xpr 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'F:/project_2/project_2.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 106 MB (+108971kb) [00:00:56]
+// [Engine Memory]: 948 MB (+843004kb) [00:00:56]
+// [GUI Memory]: 142 MB (+32150kb) [00:00:58]
+// WARNING: HEventQueue.dispatchEvent() is taking  7472 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/xilinx/Vivado/2024.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:01:07 ; elapsed = 00:00:36 . Memory (MB): peak = 1475.727 ; gain = 375.367 
+// Project name: project_2; location: F:/project_2; part: xc7z020clg484-1
+dismissDialog("Open Project"); // bj (Open Project Progress)
+// Tcl Message: update_compile_order -fileset sources_1 
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // R (PAResourceOtoP.PAViews_SOURCES, Sources)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb (tb.v), DUT : Main_auto (Main_auto.sv)]", 5, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb (tb.v), DUT : Main_auto (Main_auto.sv)]", 5, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 13); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 13); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Elaborate Design"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Elaborate Design"); // t (dialog0)
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7z020clg484-1 Top: Main_auto 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,036 MB. GUI used memory: 83 MB. Current time: 3/22/25, 10:32:21 AM IST
+// TclEventType: ELABORATE_START
+// TclEventType: MSGMGR_REFRESH_MSG
+// HMemoryUtils.trashcanNow. Engine heap size: 1,326 MB. GUI used memory: 83 MB. Current time: 3/22/25, 10:32:36 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,337 MB. GUI used memory: 83 MB. Current time: 3/22/25, 10:32:47 AM IST
+// TclEventType: ELABORATE_FINISH
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,393 MB. GUI used memory: 83 MB. Current time: 3/22/25, 10:33:10 AM IST
+// [Engine Memory]: 1,393 MB (+416395kb) [00:02:14]
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 1,485 MB (+23223kb) [00:02:19]
+// Xgd.load filename: F:/project_2/.Xil/Vivado-28744-LAPTOP-5C60I06H/xc7z020_detail.xgd_206B elapsed time: 2.8s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 2.9s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 5.1s
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  4967 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7z020clg484-1 INFO: [Device 21-9227] Part: xc7z020clg484-1 does not have CEAM library. INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes. INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes INFO: [Synth 8-7075] Helper process launched with PID 27248 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2374.336 ; gain = 441.094 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-11241] undeclared symbol 'mux_out3', assumed default net type 'wire' [F:/Automation/Router/router/allot_vc.v:262] 
+// Tcl Message: INFO: [Synth 8-9937] previous definition of design element 'depack' is here [F:/project_1/project_1.srcs/sources_1/new/DCLS_BRISC_NI.v:398] 
+// Tcl Message: INFO: [Synth 8-9937] previous definition of design element 'router_fifo' is here [F:/project_1/project_1.srcs/sources_1/new/DCLS_BRISC_NI.v:456] INFO: [Synth 8-6157] synthesizing module 'Main_auto' [F:/Automation/new/Main_auto.sv:23] INFO: [Synth 8-6157] synthesizing module 'top_dcls_brisc_ni' [F:/project_1/project_1.srcs/sources_1/new/top_dcls_brisc_ni.v:23] INFO: [Synth 8-6157] synthesizing module 'DCLS_BRISC_NI' [F:/project_1/project_1.srcs/sources_1/new/DCLS_BRISC_NI.v:21] INFO: [Synth 8-6157] synthesizing module 'RISC_V_Core' [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/RISC_V_Core.v:24] 
+// Tcl Message: 	Parameter CORE bound to: 0 - type: integer  	Parameter DATA_WIDTH bound to: 32 - type: integer  	Parameter INDEX_BITS bound to: 6 - type: integer  	Parameter OFFSET_BITS bound to: 3 - type: integer  	Parameter ADDRESS_BITS bound to: 20 - type: integer  
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'fetch_unit' [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/fetch.v:158] 
+// Tcl Message: 	Parameter CORE bound to: 0 - type: integer  	Parameter DATA_WIDTH bound to: 32 - type: integer  	Parameter INDEX_BITS bound to: 6 - type: integer  	Parameter OFFSET_BITS bound to: 3 - type: integer  	Parameter ADDRESS_BITS bound to: 20 - type: integer  
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'mem_interface' [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/mem_interface.v:23] 
+// Tcl Message: 	Parameter CORE bound to: 0 - type: integer  	Parameter DATA_WIDTH bound to: 32 - type: integer  	Parameter INDEX_BITS bound to: 6 - type: integer  	Parameter OFFSET_BITS bound to: 3 - type: integer  	Parameter ADDRESS_BITS bound to: 20 - type: integer  
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'BSRAM' [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/bsram.v:27] 
+// Tcl Message: 	Parameter CORE bound to: 0 - type: integer  	Parameter DATA_WIDTH bound to: 32 - type: integer  	Parameter ADDR_WIDTH bound to: 20 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'BSRAM' (0#1) [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/bsram.v:27] INFO: [Synth 8-6155] done synthesizing module 'mem_interface' (0#1) [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/mem_interface.v:23] INFO: [Synth 8-6155] done synthesizing module 'fetch_unit' (0#1) [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/fetch.v:158] INFO: [Synth 8-6157] synthesizing module 'decode_unit' [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/decode.v:23] 
+// Tcl Message: 	Parameter CORE bound to: 0 - type: integer  	Parameter ADDRESS_BITS bound to: 20 - type: integer  
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'regFile' [F:/project_1/project_1.srcs/sources_1/imports/DCLS_BRSICV_BITS_BINDU/regFile.v:24] 
+// Tcl Message: 	Parameter REG_DATA_WIDTH bound to: 32 - type: integer  	Parameter REG_SEL_BITS bound to: 5 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'regFile' (0#1) [F:/project_1/project_1.srcs/sources_1/imports/DCLS_BRSICV_BITS_BINDU/regFile.v:24] INFO: [Synth 8-6155] done synthesizing module 'decode_unit' (0#1) [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/decode.v:23] INFO: [Synth 8-6157] synthesizing module 'control_unit' [F:/project_1/project_1.srcs/sources_1/imports/DCLS_BRSICV_BITS_BINDU/control_unit.v:29] 
+// Tcl Message: 	Parameter CORE bound to: 0 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'control_unit' (0#1) [F:/project_1/project_1.srcs/sources_1/imports/DCLS_BRSICV_BITS_BINDU/control_unit.v:29] INFO: [Synth 8-6157] synthesizing module 'execution_unit' [F:/project_1/project_1.srcs/sources_1/imports/DCLS_BRSICV_BITS_BINDU/execute.v:24] 
+// Tcl Message: 	Parameter CORE bound to: 0 - type: integer  	Parameter DATA_WIDTH bound to: 32 - type: integer  	Parameter ADDRESS_BITS bound to: 20 - type: integer  
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'ALU' [F:/project_1/project_1.srcs/sources_1/imports/DCLS_BRSICV_BITS_BINDU/ALU.v:23] 
+// Tcl Message: 	Parameter DATA_WIDTH bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [F:/project_1/project_1.srcs/sources_1/imports/DCLS_BRSICV_BITS_BINDU/ALU.v:23] INFO: [Synth 8-6155] done synthesizing module 'execution_unit' (0#1) [F:/project_1/project_1.srcs/sources_1/imports/DCLS_BRSICV_BITS_BINDU/execute.v:24] INFO: [Synth 8-6157] synthesizing module 'memory_unit' [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/memory.v:23] 
+// Tcl Message: 	Parameter CORE bound to: 0 - type: integer  	Parameter DATA_WIDTH bound to: 32 - type: integer  	Parameter INDEX_BITS bound to: 6 - type: integer  	Parameter OFFSET_BITS bound to: 3 - type: integer  	Parameter ADDRESS_BITS bound to: 20 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'memory_unit' (0#1) [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/memory.v:23] INFO: [Synth 8-6157] synthesizing module 'writeback_unit' [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/writeback.v:22] 
+// Tcl Message: 	Parameter CORE bound to: 0 - type: integer  	Parameter DATA_WIDTH bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'writeback_unit' (0#1) [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/writeback.v:22] INFO: [Synth 8-6155] done synthesizing module 'RISC_V_Core' (0#1) [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/RISC_V_Core.v:24] INFO: [Synth 8-6157] synthesizing module 'RISC_V_Core__parameterized0' [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/RISC_V_Core.v:24] 
+// Tcl Message: 	Parameter CORE bound to: 1 - type: integer  	Parameter DATA_WIDTH bound to: 32 - type: integer  	Parameter INDEX_BITS bound to: 6 - type: integer  	Parameter OFFSET_BITS bound to: 3 - type: integer  	Parameter ADDRESS_BITS bound to: 20 - type: integer  
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'fetch_unit__parameterized0' [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/fetch.v:158] 
+// Tcl Message: 	Parameter CORE bound to: 1 - type: integer  	Parameter DATA_WIDTH bound to: 32 - type: integer  	Parameter INDEX_BITS bound to: 6 - type: integer  	Parameter OFFSET_BITS bound to: 3 - type: integer  	Parameter ADDRESS_BITS bound to: 20 - type: integer  
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'mem_interface__parameterized0' [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/mem_interface.v:23] 
+// Tcl Message: 	Parameter CORE bound to: 1 - type: integer  	Parameter DATA_WIDTH bound to: 32 - type: integer  	Parameter INDEX_BITS bound to: 6 - type: integer  	Parameter OFFSET_BITS bound to: 3 - type: integer  	Parameter ADDRESS_BITS bound to: 20 - type: integer  
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'BSRAM__parameterized0' [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/bsram.v:27] 
+// Tcl Message: 	Parameter CORE bound to: 1 - type: integer  	Parameter DATA_WIDTH bound to: 32 - type: integer  	Parameter ADDR_WIDTH bound to: 20 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'BSRAM__parameterized0' (0#1) [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/bsram.v:27] INFO: [Synth 8-6155] done synthesizing module 'mem_interface__parameterized0' (0#1) [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/mem_interface.v:23] INFO: [Synth 8-6155] done synthesizing module 'fetch_unit__parameterized0' (0#1) [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/fetch.v:158] INFO: [Synth 8-6157] synthesizing module 'decode_unit__parameterized0' [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/decode.v:23] 
+// Tcl Message: 	Parameter CORE bound to: 1 - type: integer  	Parameter ADDRESS_BITS bound to: 20 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'decode_unit__parameterized0' (0#1) [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/decode.v:23] INFO: [Synth 8-6157] synthesizing module 'control_unit__parameterized0' [F:/project_1/project_1.srcs/sources_1/imports/DCLS_BRSICV_BITS_BINDU/control_unit.v:29] 
+// Tcl Message: 	Parameter CORE bound to: 1 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'control_unit__parameterized0' (0#1) [F:/project_1/project_1.srcs/sources_1/imports/DCLS_BRSICV_BITS_BINDU/control_unit.v:29] INFO: [Synth 8-6157] synthesizing module 'execution_unit__parameterized0' [F:/project_1/project_1.srcs/sources_1/imports/DCLS_BRSICV_BITS_BINDU/execute.v:24] 
+// Tcl Message: 	Parameter CORE bound to: 1 - type: integer  	Parameter DATA_WIDTH bound to: 32 - type: integer  	Parameter ADDRESS_BITS bound to: 20 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'execution_unit__parameterized0' (0#1) [F:/project_1/project_1.srcs/sources_1/imports/DCLS_BRSICV_BITS_BINDU/execute.v:24] INFO: [Synth 8-6157] synthesizing module 'memory_unit__parameterized0' [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/memory.v:23] 
+// Tcl Message: 	Parameter CORE bound to: 1 - type: integer  	Parameter DATA_WIDTH bound to: 32 - type: integer  	Parameter INDEX_BITS bound to: 6 - type: integer  	Parameter OFFSET_BITS bound to: 3 - type: integer  	Parameter ADDRESS_BITS bound to: 20 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'memory_unit__parameterized0' (0#1) [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/memory.v:23] INFO: [Synth 8-6157] synthesizing module 'writeback_unit__parameterized0' [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/writeback.v:22] 
+// Tcl Message: 	Parameter CORE bound to: 1 - type: integer  	Parameter DATA_WIDTH bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'writeback_unit__parameterized0' (0#1) [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/writeback.v:22] INFO: [Synth 8-6155] done synthesizing module 'RISC_V_Core__parameterized0' (0#1) [F:/project_1/project_1.srcs/sources_1/imports/DCLS+NI+NoC/DCLS_BRSICV_BITS_BINDU/RISC_V_Core.v:24] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'DCLS_BRISC_NI' (0#1) [F:/project_1/project_1.srcs/sources_1/new/DCLS_BRISC_NI.v:21] INFO: [Synth 8-6155] done synthesizing module 'top_dcls_brisc_ni' (0#1) [F:/project_1/project_1.srcs/sources_1/new/top_dcls_brisc_ni.v:23] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'nidepack' [F:/project_1/project_1.srcs/sources_1/new/DCLS_BRISC_NI.v:271] INFO: [Synth 8-6157] synthesizing module 'decoder_2' [F:/project_1/project_1.srcs/sources_1/new/DCLS_BRISC_NI.v:333] INFO: [Synth 8-6155] done synthesizing module 'decoder_2' (0#1) [F:/project_1/project_1.srcs/sources_1/new/DCLS_BRISC_NI.v:333] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'asynch_comparator' [F:/Automation/Router/router/asynch_comparator.v:23] INFO: [Synth 8-6155] done synthesizing module 'asynch_comparator' (0#1) [F:/Automation/Router/router/asynch_comparator.v:23] INFO: [Synth 8-6155] done synthesizing module 'router_fifo' (0#1) [F:/Automation/Router/router/router_fifo.v:5] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'nidepack' (0#1) [F:/project_1/project_1.srcs/sources_1/new/DCLS_BRISC_NI.v:271] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'Auto_Mesh' [F:/Automation/new/Auto_Mesh.sv:23] INFO: [Synth 8-6157] synthesizing module 'top_module' [F:/Automation/Router/router/top_module.v:3] INFO: [Synth 8-6157] synthesizing module 'ip_link' [F:/Automation/Router/router/ip_link.v:3] INFO: [Synth 8-6157] synthesizing module 'ip_chnl' [F:/Automation/Router/router/ip_chnl.v:1] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'dff_synch_reset' [F:/Automation/Router/router/dff_synch_reset.v:1] INFO: [Synth 8-6155] done synthesizing module 'dff_synch_reset' (0#1) [F:/Automation/Router/router/dff_synch_reset.v:1] INFO: [Synth 8-6157] synthesizing module 'dff_synch_set' [F:/Automation/Router/router/dff_synch_set.v:1] INFO: [Synth 8-6155] done synthesizing module 'dff_synch_set' (0#1) [F:/Automation/Router/router/dff_synch_set.v:1] INFO: [Synth 8-6155] done synthesizing module 'ip_chnl' (0#1) [F:/Automation/Router/router/ip_chnl.v:1] 
+// Tcl Message: INFO: [Common 17-14] Message 'Synth 8-7071' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'encoder_r' [F:/project_2/project_2.srcs/sources_1/new/encoder_r.v:23] INFO: [Synth 8-6155] done synthesizing module 'encoder_r' (0#1) [F:/project_2/project_2.srcs/sources_1/new/encoder_r.v:23] INFO: [Synth 8-6157] synthesizing module 'allot_vc' [F:/Automation/Router/router/allot_vc.v:3] INFO: [Synth 8-6157] synthesizing module 'register_1bit' [F:/Automation/Router/router/register_1bit.v:5] INFO: [Synth 8-6155] done synthesizing module 'register_1bit' (0#1) [F:/Automation/Router/router/register_1bit.v:5] INFO: [Synth 8-6157] synthesizing module 'register_4bit' [F:/Automation/Router/router/register_4bit.v:5] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'register_4bit' (0#1) [F:/Automation/Router/router/register_4bit.v:5] INFO: [Synth 8-6157] synthesizing module 'mux' [F:/Automation/Router/router/mux.v:23] INFO: [Synth 8-6155] done synthesizing module 'mux' (0#1) [F:/Automation/Router/router/mux.v:23] INFO: [Synth 8-6155] done synthesizing module 'allot_vc' (0#1) [F:/Automation/Router/router/allot_vc.v:3] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'rr_comb_new' [F:/Automation/Router/router/rr_comb_new.v:2] INFO: [Synth 8-6157] synthesizing module 'dff_synch_clr' [F:/Automation/Router/router/dff_synch_clr.v:3] INFO: [Synth 8-6155] done synthesizing module 'dff_synch_clr' (0#1) [F:/Automation/Router/router/dff_synch_clr.v:3] INFO: [Synth 8-6155] done synthesizing module 'rr_comb_new' (0#1) [F:/Automation/Router/router/rr_comb_new.v:2] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'demux_16' [F:/Automation/Router/router/demux_16.v:23] INFO: [Synth 8-6155] done synthesizing module 'demux_16' (0#1) [F:/Automation/Router/router/demux_16.v:23] INFO: [Synth 8-6155] done synthesizing module 'op_link1' (0#1) [F:/Automation/Router/router/op_link1.v:4] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'op_link2' [F:/Automation/Router/router/op_link2.v:3] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'encoder' [F:/Automation/Router/router/encoder.v:3] INFO: [Synth 8-6155] done synthesizing module 'encoder' (0#1) [F:/Automation/Router/router/encoder.v:3] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'op_link2' (0#1) [F:/Automation/Router/router/op_link2.v:3] INFO: [Synth 8-6157] synthesizing module 'op_link3' [F:/Automation/Router/router/op_link3.v:3] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'op_link3' (0#1) [F:/Automation/Router/router/op_link3.v:3] INFO: [Synth 8-6157] synthesizing module 'op_link4' [F:/Automation/Router/router/op_link4.v:1] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'op_link4' (0#1) [F:/Automation/Router/router/op_link4.v:1] INFO: [Synth 8-6157] synthesizing module 'op_core' [F:/Automation/Router/router/op_core.v:4] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'op_core' (0#1) [F:/Automation/Router/router/op_core.v:4] INFO: [Synth 8-6157] synthesizing module 'op_data_path' [F:/Automation/Router/router/op_data_path.v:1] INFO: [Synth 8-6157] synthesizing module 'final_op_data' [F:/Automation/Router/router/fop.v:23] INFO: [Synth 8-6155] done synthesizing module 'final_op_data' (0#1) [F:/Automation/Router/router/fop.v:23] INFO: [Synth 8-6155] done synthesizing module 'op_data_path' (0#1) [F:/Automation/Router/router/op_data_path.v:1] INFO: [Synth 8-6155] done synthesizing module 'top_module' (0#1) [F:/Automation/Router/router/top_module.v:3] 
+// Tcl Message: INFO: [Common 17-14] Message 'Synth 8-689' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'Auto_Mesh' (0#1) [F:/Automation/new/Auto_Mesh.sv:23] INFO: [Synth 8-6155] done synthesizing module 'Main_auto' (0#1) [F:/Automation/new/Main_auto.sv:23] 
+// Tcl Message: INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 2709.520 ; gain = 776.277 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 2709.520 ; gain = 776.277 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 2709.520 ; gain = 776.277 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2709.520 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 2709.520 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// [GUI Memory]: 159 MB (+9953kb) [00:02:20]
+// TclEventType: CURR_DESIGN_SET
+// [GUI Memory]: 180 MB (+13664kb) [00:02:20]
+// Device view-level: 0.0
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:45 ; elapsed = 00:00:43 . Memory (MB): peak = 2774.910 ; gain = 841.668 
+// Tcl Message: 144 Infos, 397 Warnings, 3 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:51 ; elapsed = 00:00:59 . Memory (MB): peak = 2774.910 ; gain = 1257.941 
+// Elapsed Time for: 'o.a': 01m:01s
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 1.7s
+// Elapsed time: 60 seconds
+dismissDialog("Open Elaborated Design"); // bj (Open Elaborated Design Progress)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // J (dialog1)
+// WARNING: HEventQueue.dispatchEvent() is taking  948722 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  569295 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,546 MB. GUI used memory: 114 MB. Current time: 3/22/25, 11:03:52 AM IST
+// WARNING: HEventQueue.dispatchEvent() is taking  750171 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 750358 ms. Increasing delay to 2251074 ms.
+// Elapsed time: 2691 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // D (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main_auto.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 15 seconds
+selectCodeEditor("Main_auto.sv", 158, 91); // ac (Main_auto.sv)
+selectCodeEditor("Main_auto.sv", 172, 111); // ac (Main_auto.sv)
+// Elapsed time: 76 seconds
+selectCodeEditor("Main_auto.sv", 154, 202); // ac (Main_auto.sv)
+selectCodeEditor("Main_auto.sv", 142, 152); // ac (Main_auto.sv)
+// WARNING: HEventQueue.dispatchEvent() is taking  132024 ms.
+// [GUI Memory]: 192 MB (+3035kb) [00:52:21]
+// Elapsed time: 206 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 76 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main_auto.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main_auto.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// WARNING: HEventQueue.dispatchEvent() is taking  1093570 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,546 MB. GUI used memory: 115 MB. Current time: 3/22/25, 11:45:45 AM IST
+// WARNING: HEventQueue.dispatchEvent() is taking  106660 ms.
+// Elapsed time: 1523 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main_auto.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 67 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // j (PAResourceTtoZ.TaskBanner_CLOSE)
+closeTask("RTL Analysis", "Elaborated Design", "DesignTask.RTL_PLANNING");
+selectButton(RDIResource.BaseDialog_OK, "OK", "Confirm Close"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Confirm Close"); // t (dialog2)
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,546 MB. GUI used memory: 92 MB. Current time: 3/22/25, 11:52:01 AM IST
+// Engine heap size: 1,546 MB. GUI used memory: 94 MB. Current time: 3/22/25, 11:52:01 AM IST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+dismissDialog("Close"); // bj (Close Progress)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // R (PAResourceOtoP.PAViews_SOURCES, Sources)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb (tb.v), DUT : Main_auto (Main_auto.sv), gen_NI_Processor_row[0].gen_NI_Processor_column[0].P : top_dcls_brisc_ni (top_dcls_brisc_ni.v)]", 7, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb (tb.v), DUT : Main_auto (Main_auto.sv), gen_NI_Processor_row[0].gen_NI_Processor_column[0].P : top_dcls_brisc_ni (top_dcls_brisc_ni.v)]", 7, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main_auto.sv", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_dcls_brisc_ni.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // R (PAResourceOtoP.PAViews_SOURCES, Sources)
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb (tb.v), DUT : Main_auto (Main_auto.sv), gen_NI_Processor_row[0].gen_NI_Processor_column[0].P : top_dcls_brisc_ni (top_dcls_brisc_ni.v), dcls_core : DCLS_BRISC_NI (DCLS_BRISC_NI.v)]", 8, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb (tb.v), DUT : Main_auto (Main_auto.sv), gen_NI_Processor_row[0].gen_NI_Processor_column[0].P : top_dcls_brisc_ni (top_dcls_brisc_ni.v), dcls_core : DCLS_BRISC_NI (DCLS_BRISC_NI.v)]", 8, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+// Elapsed time: 40 seconds
+selectCodeEditor("DCLS_BRISC_NI.v", 204, 174); // ac (DCLS_BRISC_NI.v)
+selectCodeEditor("DCLS_BRISC_NI.v", 204, 174, false, false, false, false, true); // ac (DCLS_BRISC_NI.v) - Double Click
+selectCodeEditor("DCLS_BRISC_NI.v", 256, 201); // ac (DCLS_BRISC_NI.v)
+selectCodeEditor("DCLS_BRISC_NI.v", 256, 201, false, false, false, false, true); // ac (DCLS_BRISC_NI.v) - Double Click
+selectCodeEditor("DCLS_BRISC_NI.v", 256, 201); // ac (DCLS_BRISC_NI.v)
+selectCodeEditor("DCLS_BRISC_NI.v", 256, 201); // ac (DCLS_BRISC_NI.v)
+selectCodeEditor("DCLS_BRISC_NI.v", 256, 201, false, false, false, false, true); // ac (DCLS_BRISC_NI.v) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("DCLS_BRISC_NI.v", 233, 248); // ac (DCLS_BRISC_NI.v)
+selectCodeEditor("DCLS_BRISC_NI.v", 233, 248, false, false, false, false, true); // ac (DCLS_BRISC_NI.v) - Double Click
+selectCodeEditor("DCLS_BRISC_NI.v", 233, 248); // ac (DCLS_BRISC_NI.v)
+// Elapsed time: 36 seconds
+selectCodeEditor("DCLS_BRISC_NI.v", 184, 128); // ac (DCLS_BRISC_NI.v)
+selectCodeEditor("DCLS_BRISC_NI.v", 184, 128, false, false, false, false, true); // ac (DCLS_BRISC_NI.v) - Double Click
+// Elapsed time: 12 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // R (PAResourceOtoP.PAViews_SOURCES, Sources)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb (tb.v), DUT : Main_auto (Main_auto.sv), gen_NI_Processor_row[0].gen_NI_Processor_column[0].P : top_dcls_brisc_ni (top_dcls_brisc_ni.v), dcls_core : DCLS_BRISC_NI (DCLS_BRISC_NI.v), primary_core : RISC_V_Core (RISC_V_Core.v)]", 9, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb (tb.v), DUT : Main_auto (Main_auto.sv), gen_NI_Processor_row[0].gen_NI_Processor_column[0].P : top_dcls_brisc_ni (top_dcls_brisc_ni.v), dcls_core : DCLS_BRISC_NI (DCLS_BRISC_NI.v), primary_core : RISC_V_Core (RISC_V_Core.v)]", 9, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Elapsed time: 23 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "current_pc"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectCodeEditor("RISC_V_Core.v", 157, 396); // ac (RISC_V_Core.v)
+selectCodeEditor("RISC_V_Core.v", 157, 396, false, false, false, false, true); // ac (RISC_V_Core.v) - Double Click
+// Elapsed time: 39 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DCLS_BRISC_NI.v", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb (tb.v), DUT : Main_auto (Main_auto.sv)]", 5, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb (tb.v), DUT : Main_auto (Main_auto.sv)]", 5, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Elapsed time: 64 seconds
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // R (PAResourceOtoP.PAViews_SOURCES, Sources)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources]", 33, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, Risc_Processor.v]", 35, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, Risc_Processor.v]", 35, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, Risc_Processor.v]", 35, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_ENABLE, "Enable File"); // ap (PAResourceCommand.PACommandNames_SRC_ENABLE, src_enable_menu)
+// Run Command: PAResourceCommand.PACommandNames_SRC_ENABLE
+// Tcl Message: set_property is_enabled true [get_files  F:/Automation/Processor/RiscV_modified/RiscV_modified.srcs/sources_1/new/Risc_Processor.v] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Enable File"); // bj (Enable File Progress)
+// Elapsed Time for: 'L.f': 01h:25m:43s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:25m:46s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 01h:25m:47s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error ERROR: [Common 17-180] Spawn failed: No error 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Risc_Processor (Risc_Processor.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Risc_Processor (Risc_Processor.v), Pc_A : pc_adder (pc_adder.v)]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed Time for: 'L.f': 01h:25m:49s
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+// Elapsed time: 17 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "destination", true); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+// Elapsed time: 17 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_dcls_brisc_ni.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main_auto.sv", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("Main_auto.sv", 72, 77); // ac (Main_auto.sv)
+typeControlKey((HResource) null, "Main_auto.sv", 'v'); // ac (Main_auto.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:26m:57s
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // R (PAResourceOtoP.PAViews_SOURCES, Sources)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:27m:02s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 01h:27m:03s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, new.v]", 15, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, new.v]", 15, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_ENABLE, "Enable File"); // ap (PAResourceCommand.PACommandNames_SRC_ENABLE, src_enable_menu)
+// Run Command: PAResourceCommand.PACommandNames_SRC_ENABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled true [get_files  F:/Automation/NI+nidepack/new.v] 
+// Elapsed Time for: 'L.f': 01h:27m:07s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, nidepack.v]", 16, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, nidepack.v]", 16, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_ENABLE, "Enable File"); // ap (PAResourceCommand.PACommandNames_SRC_ENABLE, src_enable_menu)
+// Run Command: PAResourceCommand.PACommandNames_SRC_ENABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled true [get_files  F:/Automation/NI+nidepack/nidepack.v] 
+// Elapsed Time for: 'L.f': 01h:27m:11s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:27m:16s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 01h:27m:17s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 01h:27m:19s
+// Elapsed time: 11 seconds
+unMaximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // R (PAResourceOtoP.PAViews_SOURCES, Sources)
+// [GUI Memory]: 202 MB (+776kb) [01:28:23]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Elaborate Design"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Elaborate Design"); // t (dialog3)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7z020clg484-1 Top: Main_auto 
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2785.887 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-11241] undeclared symbol 'full_int', assumed default net type 'wire' [F:/Automation/new/Main_auto.sv:55] INFO: [Synth 8-11241] undeclared symbol 'wr_o', assumed default net type 'wire' [F:/Automation/new/Main_auto.sv:55] 
+// Tcl Message: ERROR: [Synth 8-36] 'data_in_risc' is not declared [F:/Automation/new/Main_auto.sv:54] ERROR: [Synth 8-36] 'data_in_risc' is not declared [F:/Automation/new/Main_auto.sv:55] 
+// Tcl Message: INFO: [Synth 8-10285] module 'Main_auto' is ignored due to previous errors [F:/Automation/new/Main_auto.sv:74] INFO: [Synth 8-9084] Verilog file 'F:/Automation/new/Main_auto.sv' ignored due to errors 
+// Tcl Message: ERROR: [Synth 8-439] module 'Main_auto' not found 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2785.887 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: 5 Infos, 2 Warnings, 0 Critical Warnings and 4 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details  
+// Elapsed time: 10 seconds
+dismissDialog("Open Elaborated Design"); // bj (Open Elaborated Design Progress)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // J (dialog4)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+selectCodeEditor("Main_auto.sv", 137, 96); // ac (Main_auto.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01h:27m:59s
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Elaborate Design"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Elaborate Design"); // t (dialog5)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7z020clg484-1 Top: Main_auto 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,546 MB. GUI used memory: 75 MB. Current time: 3/22/25, 12:00:23 PM IST
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: F:/project_2/.Xil/Vivado-28744-LAPTOP-5C60I06H/xc7z020_detail.xgd_632F elapsed time: 2.5s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 3.5s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 4.8s
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  4282 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2785.887 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-11241] undeclared symbol 'full_int', assumed default net type 'wire' [F:/Automation/new/Main_auto.sv:55] INFO: [Synth 8-11241] undeclared symbol 'wr_o', assumed default net type 'wire' [F:/Automation/new/Main_auto.sv:55] INFO: [Synth 8-11241] undeclared symbol 'beq_pc_Sel', assumed default net type 'wire' [F:/Automation/Processor/RiscV_modified/RiscV_modified.srcs/sources_1/new/Risc_Processor.v:59] INFO: [Synth 8-11241] undeclared symbol 'mux_out3', assumed default net type 'wire' [F:/Automation/Router/router/allot_vc.v:262] 
+// Tcl Message: INFO: [Synth 8-9937] previous definition of design element 'depack' is here [F:/project_1/project_1.srcs/sources_1/new/DCLS_BRISC_NI.v:398] 
+// Tcl Message: INFO: [Synth 8-9937] previous definition of design element 'encoder' is here [F:/project_1/project_1.srcs/sources_1/new/DCLS_BRISC_NI.v:352] INFO: [Synth 8-11241] undeclared symbol 'rd_en_out', assumed default net type 'wire' [F:/Automation/Router/router/ip_chnl.v:72] 
+// Tcl Message: INFO: [Synth 8-9937] previous definition of design element 'new1' is here [F:/project_1/project_1.srcs/sources_1/new/DCLS_BRISC_NI.v:330] 
+// Tcl Message: INFO: [Synth 8-11241] undeclared symbol 'wen_int', assumed default net type 'wire' [F:/Automation/Router/router/router_fifo.v:20] INFO: [Synth 8-11241] undeclared symbol 'ren_int', assumed default net type 'wire' [F:/Automation/Router/router/router_fifo.v:21] 
+// Tcl Message: INFO: [Synth 8-9937] previous definition of design element 'router_fifo' is here [F:/project_1/project_1.srcs/sources_1/new/DCLS_BRISC_NI.v:456] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'ctrl_sgnl_mux' (0#1) [F:/Automation/Processor/RiscV_modified/RiscV_modified.srcs/sources_1/new/ctrl_sgnl_mux.v:3] INFO: [Synth 8-6157] synthesizing module 'ID_EX_Register' [F:/Automation/Processor/RiscV_modified/RiscV_modified.srcs/sources_1/new/ID_EX_Register.v:3] INFO: [Synth 8-6155] done synthesizing module 'ID_EX_Register' (0#1) [F:/Automation/Processor/RiscV_modified/RiscV_modified.srcs/sources_1/new/ID_EX_Register.v:3] INFO: [Synth 8-6157] synthesizing module 'stalling_unit' [F:/Automation/Processor/RiscV_modified/RiscV_modified.srcs/sources_1/new/stalling_unit.v:7] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'asynch_comparator' [F:/Automation/Router/router/asynch_comparator.v:23] INFO: [Synth 8-6155] done synthesizing module 'asynch_comparator' (0#1) [F:/Automation/Router/router/asynch_comparator.v:23] INFO: [Synth 8-6155] done synthesizing module 'router_fifo' (0#1) [F:/Automation/Router/router/router_fifo.v:5] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'new1' (0#1) [F:/Automation/NI+nidepack/new.v:23] INFO: [Synth 8-6157] synthesizing module 'nidepack' [F:/Automation/NI+nidepack/nidepack.v:23] INFO: [Synth 8-6157] synthesizing module 'depack' [F:/Automation/NI+nidepack/depack.v:21] INFO: [Synth 8-6155] done synthesizing module 'depack' (0#1) [F:/Automation/NI+nidepack/depack.v:21] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'nidepack' (0#1) [F:/Automation/NI+nidepack/nidepack.v:23] 
+// Tcl Message: INFO: [Synth 8-556] previous implicit net 'full_int' [F:/Automation/new/Main_auto.sv:55] 
+// Tcl Message: INFO: [Synth 8-556] previous implicit net 'wr_o' [F:/Automation/new/Main_auto.sv:55] 
+// Tcl Message: INFO: [Synth 8-556] previous implicit net 'full_int' [F:/Automation/new/Main_auto.sv:55] 
+// Tcl Message: INFO: [Synth 8-556] previous implicit net 'wr_o' [F:/Automation/new/Main_auto.sv:55] 
+// Tcl Message: INFO: [Synth 8-556] previous implicit net 'full_int' [F:/Automation/new/Main_auto.sv:55] 
+// Tcl Message: INFO: [Synth 8-556] previous implicit net 'wr_o' [F:/Automation/new/Main_auto.sv:55] INFO: [Synth 8-6157] synthesizing module 'Auto_Mesh' [F:/Automation/new/Auto_Mesh.sv:23] INFO: [Synth 8-6157] synthesizing module 'top_module' [F:/Automation/Router/router/top_module.v:3] INFO: [Synth 8-6157] synthesizing module 'ip_link' [F:/Automation/Router/router/ip_link.v:3] INFO: [Synth 8-6157] synthesizing module 'ip_chnl' [F:/Automation/Router/router/ip_chnl.v:1] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'dff_synch_reset' [F:/Automation/Router/router/dff_synch_reset.v:1] INFO: [Synth 8-6155] done synthesizing module 'dff_synch_reset' (0#1) [F:/Automation/Router/router/dff_synch_reset.v:1] INFO: [Synth 8-6157] synthesizing module 'dff_synch_set' [F:/Automation/Router/router/dff_synch_set.v:1] INFO: [Synth 8-6155] done synthesizing module 'dff_synch_set' (0#1) [F:/Automation/Router/router/dff_synch_set.v:1] INFO: [Synth 8-6155] done synthesizing module 'ip_chnl' (0#1) [F:/Automation/Router/router/ip_chnl.v:1] 
+// Tcl Message: INFO: [Common 17-14] Message 'Synth 8-7071' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'encoder_r' [F:/project_2/project_2.srcs/sources_1/new/encoder_r.v:23] INFO: [Synth 8-6155] done synthesizing module 'encoder_r' (0#1) [F:/project_2/project_2.srcs/sources_1/new/encoder_r.v:23] INFO: [Synth 8-6157] synthesizing module 'allot_vc' [F:/Automation/Router/router/allot_vc.v:3] INFO: [Synth 8-6157] synthesizing module 'register_1bit' [F:/Automation/Router/router/register_1bit.v:5] INFO: [Synth 8-6155] done synthesizing module 'register_1bit' (0#1) [F:/Automation/Router/router/register_1bit.v:5] INFO: [Synth 8-6157] synthesizing module 'register_4bit' [F:/Automation/Router/router/register_4bit.v:5] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'register_4bit' (0#1) [F:/Automation/Router/router/register_4bit.v:5] INFO: [Synth 8-6157] synthesizing module 'mux' [F:/Automation/Router/router/mux.v:23] INFO: [Synth 8-6155] done synthesizing module 'mux' (0#1) [F:/Automation/Router/router/mux.v:23] INFO: [Synth 8-6155] done synthesizing module 'allot_vc' (0#1) [F:/Automation/Router/router/allot_vc.v:3] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'rr_comb_new' [F:/Automation/Router/router/rr_comb_new.v:2] INFO: [Synth 8-6157] synthesizing module 'dff_synch_clr' [F:/Automation/Router/router/dff_synch_clr.v:3] INFO: [Synth 8-6155] done synthesizing module 'dff_synch_clr' (0#1) [F:/Automation/Router/router/dff_synch_clr.v:3] INFO: [Synth 8-6155] done synthesizing module 'rr_comb_new' (0#1) [F:/Automation/Router/router/rr_comb_new.v:2] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'demux_16' [F:/Automation/Router/router/demux_16.v:23] INFO: [Synth 8-6155] done synthesizing module 'demux_16' (0#1) [F:/Automation/Router/router/demux_16.v:23] INFO: [Synth 8-6155] done synthesizing module 'op_link1' (0#1) [F:/Automation/Router/router/op_link1.v:4] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'op_link2' [F:/Automation/Router/router/op_link2.v:3] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'encoder' [F:/Automation/Router/router/encoder.v:3] INFO: [Synth 8-6155] done synthesizing module 'encoder' (0#1) [F:/Automation/Router/router/encoder.v:3] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'op_link2' (0#1) [F:/Automation/Router/router/op_link2.v:3] INFO: [Synth 8-6157] synthesizing module 'op_link3' [F:/Automation/Router/router/op_link3.v:3] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'op_link3' (0#1) [F:/Automation/Router/router/op_link3.v:3] INFO: [Synth 8-6157] synthesizing module 'op_link4' [F:/Automation/Router/router/op_link4.v:1] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'op_link4' (0#1) [F:/Automation/Router/router/op_link4.v:1] INFO: [Synth 8-6157] synthesizing module 'op_core' [F:/Automation/Router/router/op_core.v:4] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'op_core' (0#1) [F:/Automation/Router/router/op_core.v:4] INFO: [Synth 8-6157] synthesizing module 'op_data_path' [F:/Automation/Router/router/op_data_path.v:1] INFO: [Synth 8-6157] synthesizing module 'final_op_data' [F:/Automation/Router/router/fop.v:23] INFO: [Synth 8-6155] done synthesizing module 'final_op_data' (0#1) [F:/Automation/Router/router/fop.v:23] INFO: [Synth 8-6155] done synthesizing module 'op_data_path' (0#1) [F:/Automation/Router/router/op_data_path.v:1] INFO: [Synth 8-6155] done synthesizing module 'top_module' (0#1) [F:/Automation/Router/router/top_module.v:3] 
+// Tcl Message: INFO: [Common 17-14] Message 'Synth 8-689' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'Auto_Mesh' (0#1) [F:/Automation/new/Auto_Mesh.sv:23] INFO: [Synth 8-6155] done synthesizing module 'Main_auto' (0#1) [F:/Automation/new/Main_auto.sv:23] 
+// Tcl Message: INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 2785.887 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 2785.887 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 2785.887 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2785.887 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 2856.352 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// TclEventType: CURR_DESIGN_SET
+// Device view-level: 0.0
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 2864.156 ; gain = 78.270 
+// Tcl Message: 172 Infos, 443 Warnings, 6 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 2865.898 ; gain = 80.012 
+// Elapsed Time for: 'o.a': 32s
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Elapsed time: 31 seconds
+dismissDialog("Open Elaborated Design"); // bj (Open Elaborated Design Progress)
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 1.6s
+// Elapsed Time for: 'L.f': 01h:28m:35s
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // J (dialog6)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // D (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+// Elapsed time: 90 seconds
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // D (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // j (PAResourceTtoZ.TaskBanner_CLOSE)
+closeTask("RTL Analysis", "Elaborated Design", "DesignTask.RTL_PLANNING");
+selectButton(RDIResource.BaseDialog_OK, "OK", "Confirm Close"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Confirm Close"); // t (dialog7)
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,546 MB. GUI used memory: 102 MB. Current time: 3/22/25, 12:02:08 PM IST
+// Engine heap size: 1,546 MB. GUI used memory: 103 MB. Current time: 3/22/25, 12:02:08 PM IST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+dismissDialog("Close"); // bj (Close Progress)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // R (PAResourceOtoP.PAViews_SOURCES, Sources)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb (tb.v), DUT : Main_auto (Main_auto.sv)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb (tb.v), DUT : Main_auto (Main_auto.sv), A5 : Auto_Mesh (Auto_Mesh.sv)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb (tb.v), DUT : Main_auto (Main_auto.sv), A5 : Auto_Mesh (Auto_Mesh.sv)]", 3, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_dcls_brisc_ni.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Elaborate Design"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Elaborate Design"); // t (dialog8)
+// TclEventType: ELABORATE_START
+// TclEventType: MSGMGR_REFRESH_MSG
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7z020clg484-1 Top: Main_auto 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,546 MB. GUI used memory: 80 MB. Current time: 3/22/25, 12:03:07 PM IST
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: F:/project_2/.Xil/Vivado-28744-LAPTOP-5C60I06H/xc7z020_detail.xgd_6543 elapsed time: 2.2s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 4.5s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 3.4s
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  4137 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2912.129 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-11241] undeclared symbol 'full_int', assumed default net type 'wire' [F:/Automation/new/Main_auto.sv:55] INFO: [Synth 8-11241] undeclared symbol 'wr_o', assumed default net type 'wire' [F:/Automation/new/Main_auto.sv:55] INFO: [Synth 8-11241] undeclared symbol 'beq_pc_Sel', assumed default net type 'wire' [F:/Automation/Processor/RiscV_modified/RiscV_modified.srcs/sources_1/new/Risc_Processor.v:59] INFO: [Synth 8-11241] undeclared symbol 'mux_out3', assumed default net type 'wire' [F:/Automation/Router/router/allot_vc.v:262] 
+// Tcl Message: INFO: [Synth 8-9937] previous definition of design element 'depack' is here [F:/project_1/project_1.srcs/sources_1/new/DCLS_BRISC_NI.v:398] 
+// Tcl Message: INFO: [Synth 8-9937] previous definition of design element 'encoder' is here [F:/project_1/project_1.srcs/sources_1/new/DCLS_BRISC_NI.v:352] INFO: [Synth 8-11241] undeclared symbol 'rd_en_out', assumed default net type 'wire' [F:/Automation/Router/router/ip_chnl.v:72] 
+// Tcl Message: INFO: [Synth 8-9937] previous definition of design element 'new1' is here [F:/project_1/project_1.srcs/sources_1/new/DCLS_BRISC_NI.v:330] 
+// Tcl Message: INFO: [Synth 8-11241] undeclared symbol 'wen_int', assumed default net type 'wire' [F:/Automation/Router/router/router_fifo.v:20] INFO: [Synth 8-11241] undeclared symbol 'ren_int', assumed default net type 'wire' [F:/Automation/Router/router/router_fifo.v:21] 
+// Tcl Message: INFO: [Synth 8-9937] previous definition of design element 'router_fifo' is here [F:/project_1/project_1.srcs/sources_1/new/DCLS_BRISC_NI.v:456] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'ctrl_sgnl_mux' (0#1) [F:/Automation/Processor/RiscV_modified/RiscV_modified.srcs/sources_1/new/ctrl_sgnl_mux.v:3] INFO: [Synth 8-6157] synthesizing module 'ID_EX_Register' [F:/Automation/Processor/RiscV_modified/RiscV_modified.srcs/sources_1/new/ID_EX_Register.v:3] INFO: [Synth 8-6155] done synthesizing module 'ID_EX_Register' (0#1) [F:/Automation/Processor/RiscV_modified/RiscV_modified.srcs/sources_1/new/ID_EX_Register.v:3] INFO: [Synth 8-6157] synthesizing module 'stalling_unit' [F:/Automation/Processor/RiscV_modified/RiscV_modified.srcs/sources_1/new/stalling_unit.v:7] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'asynch_comparator' [F:/Automation/Router/router/asynch_comparator.v:23] INFO: [Synth 8-6155] done synthesizing module 'asynch_comparator' (0#1) [F:/Automation/Router/router/asynch_comparator.v:23] INFO: [Synth 8-6155] done synthesizing module 'router_fifo' (0#1) [F:/Automation/Router/router/router_fifo.v:5] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'new1' (0#1) [F:/Automation/NI+nidepack/new.v:23] INFO: [Synth 8-6157] synthesizing module 'nidepack' [F:/Automation/NI+nidepack/nidepack.v:23] INFO: [Synth 8-6157] synthesizing module 'depack' [F:/Automation/NI+nidepack/depack.v:21] INFO: [Synth 8-6155] done synthesizing module 'depack' (0#1) [F:/Automation/NI+nidepack/depack.v:21] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'nidepack' (0#1) [F:/Automation/NI+nidepack/nidepack.v:23] 
+// Tcl Message: INFO: [Synth 8-556] previous implicit net 'full_int' [F:/Automation/new/Main_auto.sv:55] 
+// Tcl Message: INFO: [Synth 8-556] previous implicit net 'wr_o' [F:/Automation/new/Main_auto.sv:55] 
+// Tcl Message: INFO: [Synth 8-556] previous implicit net 'full_int' [F:/Automation/new/Main_auto.sv:55] 
+// Tcl Message: INFO: [Synth 8-556] previous implicit net 'wr_o' [F:/Automation/new/Main_auto.sv:55] 
+// Tcl Message: INFO: [Synth 8-556] previous implicit net 'full_int' [F:/Automation/new/Main_auto.sv:55] 
+// Tcl Message: INFO: [Synth 8-556] previous implicit net 'wr_o' [F:/Automation/new/Main_auto.sv:55] INFO: [Synth 8-6157] synthesizing module 'Auto_Mesh' [F:/Automation/new/Auto_Mesh.sv:23] INFO: [Synth 8-6157] synthesizing module 'top_module' [F:/Automation/Router/router/top_module.v:3] INFO: [Synth 8-6157] synthesizing module 'ip_link' [F:/Automation/Router/router/ip_link.v:3] INFO: [Synth 8-6157] synthesizing module 'ip_chnl' [F:/Automation/Router/router/ip_chnl.v:1] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'dff_synch_reset' [F:/Automation/Router/router/dff_synch_reset.v:1] INFO: [Synth 8-6155] done synthesizing module 'dff_synch_reset' (0#1) [F:/Automation/Router/router/dff_synch_reset.v:1] INFO: [Synth 8-6157] synthesizing module 'dff_synch_set' [F:/Automation/Router/router/dff_synch_set.v:1] INFO: [Synth 8-6155] done synthesizing module 'dff_synch_set' (0#1) [F:/Automation/Router/router/dff_synch_set.v:1] INFO: [Synth 8-6155] done synthesizing module 'ip_chnl' (0#1) [F:/Automation/Router/router/ip_chnl.v:1] 
+// Tcl Message: INFO: [Common 17-14] Message 'Synth 8-7071' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'encoder_r' [F:/project_2/project_2.srcs/sources_1/new/encoder_r.v:23] INFO: [Synth 8-6155] done synthesizing module 'encoder_r' (0#1) [F:/project_2/project_2.srcs/sources_1/new/encoder_r.v:23] INFO: [Synth 8-6157] synthesizing module 'allot_vc' [F:/Automation/Router/router/allot_vc.v:3] INFO: [Synth 8-6157] synthesizing module 'register_1bit' [F:/Automation/Router/router/register_1bit.v:5] INFO: [Synth 8-6155] done synthesizing module 'register_1bit' (0#1) [F:/Automation/Router/router/register_1bit.v:5] INFO: [Synth 8-6157] synthesizing module 'register_4bit' [F:/Automation/Router/router/register_4bit.v:5] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'register_4bit' (0#1) [F:/Automation/Router/router/register_4bit.v:5] INFO: [Synth 8-6157] synthesizing module 'mux' [F:/Automation/Router/router/mux.v:23] INFO: [Synth 8-6155] done synthesizing module 'mux' (0#1) [F:/Automation/Router/router/mux.v:23] INFO: [Synth 8-6155] done synthesizing module 'allot_vc' (0#1) [F:/Automation/Router/router/allot_vc.v:3] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'rr_comb_new' [F:/Automation/Router/router/rr_comb_new.v:2] INFO: [Synth 8-6157] synthesizing module 'dff_synch_clr' [F:/Automation/Router/router/dff_synch_clr.v:3] INFO: [Synth 8-6155] done synthesizing module 'dff_synch_clr' (0#1) [F:/Automation/Router/router/dff_synch_clr.v:3] INFO: [Synth 8-6155] done synthesizing module 'rr_comb_new' (0#1) [F:/Automation/Router/router/rr_comb_new.v:2] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'demux_16' [F:/Automation/Router/router/demux_16.v:23] INFO: [Synth 8-6155] done synthesizing module 'demux_16' (0#1) [F:/Automation/Router/router/demux_16.v:23] INFO: [Synth 8-6155] done synthesizing module 'op_link1' (0#1) [F:/Automation/Router/router/op_link1.v:4] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'op_link2' [F:/Automation/Router/router/op_link2.v:3] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'encoder' [F:/Automation/Router/router/encoder.v:3] INFO: [Synth 8-6155] done synthesizing module 'encoder' (0#1) [F:/Automation/Router/router/encoder.v:3] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'op_link2' (0#1) [F:/Automation/Router/router/op_link2.v:3] INFO: [Synth 8-6157] synthesizing module 'op_link3' [F:/Automation/Router/router/op_link3.v:3] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'op_link3' (0#1) [F:/Automation/Router/router/op_link3.v:3] INFO: [Synth 8-6157] synthesizing module 'op_link4' [F:/Automation/Router/router/op_link4.v:1] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'op_link4' (0#1) [F:/Automation/Router/router/op_link4.v:1] INFO: [Synth 8-6157] synthesizing module 'op_core' [F:/Automation/Router/router/op_core.v:4] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'op_core' (0#1) [F:/Automation/Router/router/op_core.v:4] INFO: [Synth 8-6157] synthesizing module 'op_data_path' [F:/Automation/Router/router/op_data_path.v:1] INFO: [Synth 8-6157] synthesizing module 'final_op_data' [F:/Automation/Router/router/fop.v:23] INFO: [Synth 8-6155] done synthesizing module 'final_op_data' (0#1) [F:/Automation/Router/router/fop.v:23] INFO: [Synth 8-6155] done synthesizing module 'op_data_path' (0#1) [F:/Automation/Router/router/op_data_path.v:1] INFO: [Synth 8-6155] done synthesizing module 'top_module' (0#1) [F:/Automation/Router/router/top_module.v:3] 
+// Tcl Message: INFO: [Common 17-14] Message 'Synth 8-689' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'Auto_Mesh' (0#1) [F:/Automation/new/Auto_Mesh.sv:23] INFO: [Synth 8-6155] done synthesizing module 'Main_auto' (0#1) [F:/Automation/new/Main_auto.sv:23] 
+// Tcl Message: INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 2912.129 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 2912.129 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 2912.129 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2912.129 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 2912.129 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// TclEventType: CURR_DESIGN_SET
+// Device view-level: 0.0
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 2912.129 ; gain = 0.000 
+// Tcl Message: 172 Infos, 443 Warnings, 6 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 2912.129 ; gain = 0.000 
+// Elapsed Time for: 'o.a': 31s
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Elapsed time: 29 seconds
+dismissDialog("Open Elaborated Design"); // bj (Open Elaborated Design Progress)
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 1.6s
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // J (dialog9)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // D (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_nets <const0>]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+// PAPropertyPanels.initPanels (<const0>) elapsed time: 0.2s
+// Elapsed time: 113 seconds
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_nets data_in_risc[0][0]]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 574, 132, 1075, 526, false, false, false, true, false); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic) - Popup Trigger
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_nets <const0>]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+// Elapsed time: 109 seconds
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "unselect_objects"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+runTclCommand (PAResourceOtoP.PAViews_SCHEMATIC, "select_objects [get_nets data_out_core[0][0]]"); // j (PAResourceOtoP.PAViews_SCHEMATIC, PlanAheadTabSchematic)
+// Elapsed time: 66 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // j (PAResourceTtoZ.TaskBanner_CLOSE)
+closeTask("RTL Analysis", "Elaborated Design", "DesignTask.RTL_PLANNING");
+selectButton(RDIResource.BaseDialog_OK, "OK", "Confirm Close"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Confirm Close"); // t (dialog10)
+// TclEventType: DESIGN_CLOSE
+// Engine heap size: 1,546 MB. GUI used memory: 85 MB. Current time: 3/22/25, 12:08:22 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,546 MB. GUI used memory: 86 MB. Current time: 3/22/25, 12:08:22 PM IST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+dismissDialog("Close"); // bj (Close Progress)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // R (PAResourceOtoP.PAViews_SOURCES, Sources)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb (tb.v), DUT : Main_auto (Main_auto.sv), gen_NI_Processor_row[0].gen_NI_Processor_column[0].P : Risc_Processor (Risc_Processor.v)]", 8); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb (tb.v), DUT : Main_auto (Main_auto.sv), gen_NI_Processor_row[0].gen_NI_Processor_column[0].N : new1 (new.v)]", 36); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb (tb.v), DUT : Main_auto (Main_auto.sv), gen_NI_Processor_row[0].gen_NI_Processor_column[0].N : new1 (new.v), F2 : router_fifo (router_fifo.v)]", 40); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb (tb.v), DUT : Main_auto (Main_auto.sv), gen_NI_Processor_row[0].gen_NI_Processor_column[0].N : new1 (new.v), R1 : rp1 (rp1.v)]", 38, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb (tb.v), DUT : Main_auto (Main_auto.sv), gen_NI_Processor_row[0].gen_NI_Processor_column[0].N : new1 (new.v), R1 : rp1 (rp1.v)]", 38, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 16 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb (tb.v), DUT : Main_auto (Main_auto.sv), gen_NI_Processor_row[0].gen_NI_Processor_column[0].NP : nidepack (nidepack.v)]", 46); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb (tb.v), DUT : Main_auto (Main_auto.sv), gen_NI_Processor_row[0].gen_NI_Processor_column[0].NP : nidepack (nidepack.v), D1 : depack (depack.v)]", 47, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb (tb.v), DUT : Main_auto (Main_auto.sv), gen_NI_Processor_row[0].gen_NI_Processor_column[0].NP : nidepack (nidepack.v), D1 : depack (depack.v)]", 47, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 173 seconds
+selectCodeEditor("depack.v", 53, 26); // ac (depack.v)
+// Elapsed time: 242 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File]", 73); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, sum_1536.mem]", 75, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File, sum_1536.mem]", 75, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 40 ms. Decreasing delay to 2040 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  539311 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1659 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,546 MB. GUI used memory: 85 MB. Current time: 3/22/25, 12:38:27 PM IST
+// WARNING: HEventQueue.dispatchEvent() is taking  465628 ms.
